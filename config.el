@@ -1,3 +1,7 @@
-;;; ~/.doom.d/config.el -*- lexical-binding: t; -*-
+;;; package --- summary
+;;; Personal key configuration
+;;; commentary:
+;;;
 
 ;; Place your private configuration here
+(load! "+bindings")
