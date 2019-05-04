@@ -2,10 +2,11 @@
 
 * Magit
 - [ ] fix comfy keybinds
-
+  - [ ] commit - evil-like
+  - [ ]
 * General
  - [ ] fix the goddamn key-indent. it's awful
  - [ ] fix auto-complete to work as I want
  - [ ] keybinds for window splitting
  - [ ] learn how tree works
- - [ ] learn how to save configs
+ - [ ] learn how to save configs - and standard workspaces
