@@ -4,4 +4,6 @@
 (map!
  :leader
  ;;:desc "Toggle Neotree" "f" #'neotree-toggle)
+ :desc
+
  )
