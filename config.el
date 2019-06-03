@@ -15,5 +15,14 @@
         )
   )
 )
-(after!
+(defun run-python-buffer ()
+  (interactive)
+  (call-interactively
+   'run-python)
+  (python-shell-send-buffer)
+  )
+
+
+;;---------- load other configuration files after initial config ----------;;
 (load! "+bindings")
+(load! "+org")
