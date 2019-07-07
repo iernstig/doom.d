@@ -4,5 +4,10 @@
 (add-to-list 'load-path "~/org")
 
 ;; ;; set org-agenda-files explicitly
-;; (setq org-agenda-files
-;;       (list "~/org/agendas/personal.org" "~/org/agendas/work.org"))
+(setq org-agenda-files
+      (list "~/org/todo"))
+
+(setq org-default-notes-file (concat org-directory "~/org/todo/inbox.org"))
+
+(setq org-tag-alist '(("important" . ?i)
+                      ("urgent" . ?u)))
