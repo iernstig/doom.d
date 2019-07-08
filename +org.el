@@ -19,3 +19,5 @@
         ("2" "Q2" tags-todo "+important-urgent")
         ("3" "Q3" tags-todo "-important+urgent")
         ("4" "Q4" tags-todo "-important-urgent")))
+
+(setq org-log-done 'time)
