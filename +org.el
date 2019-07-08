@@ -9,5 +9,13 @@
 
 (setq org-default-notes-file (concat org-directory "~/org/todo/inbox.org"))
 
+;; tag setting settings
 (setq org-tag-alist '(("important" . ?i)
                       ("urgent" . ?u)))
+
+;; Eisenhovwer Matrix presets
+(setq org-agenda-custom-commands
+      '(("1" "Q1" tags-todo "+important+urgent")
+        ("2" "Q2" tags-todo "+important-urgent")
+        ("3" "Q3" tags-todo "-important+urgent")
+        ("4" "Q4" tags-todo "-important-urgent")))
