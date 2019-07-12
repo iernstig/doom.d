@@ -11,7 +11,9 @@
 
 ;; tag setting settings
 (setq org-tag-alist '(("important" . ?i)
-                      ("urgent" . ?u)))
+                      ("urgent" . ?u)
+                      ("Priority A" . ?a)
+                      ("Priority B" . ?b)))
 
 ;; Eisenhovwer Matrix presets
 (setq org-agenda-custom-commands
