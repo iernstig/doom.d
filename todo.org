@@ -10,3 +10,5 @@
  - [ ] keybinds for window splitting
  - [ ] learn how tree works
  - [ ] learn how to save configs - and standard workspaces
+* WorkSpaces
+** Bind project to workspace?

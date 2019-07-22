@@ -26,3 +26,4 @@
 ;;---------- load other configuration files after initial config ----------;;
 (load! "+bindings")
 (load! "+org")
+(load! "+py")
