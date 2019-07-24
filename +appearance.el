@@ -56,7 +56,6 @@
             (unless (ht-get treemacs-icons-hash (s-replace-regexp "\\?" "" key))
               (ht-set! treemacs-icons-hash (s-replace-regexp "\\?" "" key) value))
             (unless (ht-get treemacs-icons-hash (s-replace-regexp ".\\?" "" key))
-              (ht-set! treemacs-icons-hash (s-replace-regexp ".\\?" "" key) value))))))))
-
+              (ht-set! treemacs-icons-hash (s-replace-regexp ".\\?" "" key) value)))))))
 ;; (use-package treemacs-projectile
 ;;   :ensure t)
