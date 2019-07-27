@@ -27,4 +27,4 @@
 (load! "+bindings")
 (load! "+org")
 (load! "+py")
-(load! "+treemacs.el")
+(load! "+appearance.el")
