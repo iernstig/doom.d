@@ -28,3 +28,6 @@
 (load! "+org")
 (load! "+py")
 (load! "+appearance.el")
+
+(provide 'config)
+;;; config.el ends here
