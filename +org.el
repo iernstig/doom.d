@@ -15,6 +15,14 @@
                       ("Priority A" . ?a)
                       ("Priority B" . ?b)))
 
+(defun org-archive-done-tasks-in-file ()
+  (interactive)
+  (org-map-entries
+   (lambda ()
+     (org-archive-subtree)
+     (setq org-map-continue-from (outline-previous-heading)))
+   "/DONE" 'file)) ;; could be 'tree or 'file
+
 ;; Eisenhovwer Matrix presets
 (setq org-agenda-custom-commands
       '(("1" "Q1" tags-todo "+important+urgent")
