@@ -30,4 +30,20 @@
         ("3" "Q3" tags-todo "-important+urgent")
         ("4" "Q4" tags-todo "-important-urgent")))
 
+(def-package! org-super-agenda
+  :init
+  (setq org-super-agenda-gropus '((:name "Today"
+                                         :time-grid t
+                                         :scheduled today)
+                                  (:name "Due today"
+                                          :deadline today)
+                                  (:name "Important"
+                                         :priority "A")
+                                  (:name "Due soon"
+                                         :deadline future)
+                                  (:name "Big outcomes"
+                                         :tag "bo"))))
+
+
+
 (setq org-log-done 'time)

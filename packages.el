@@ -8,3 +8,4 @@
 (package! lsp-treemacs)
 (package! dap-mode)
 (package! lsp-java)
+(package! org-super-agenda)
