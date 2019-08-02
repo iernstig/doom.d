@@ -27,4 +27,7 @@
 (load! "+bindings")
 (load! "+org")
 (load! "+py")
-(load! "+treemacs.el")
+(load! "+appearance.el")
+
+(provide 'config)
+;;; config.el ends here
