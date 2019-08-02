@@ -8,3 +8,5 @@
 (package! lsp-treemacs)
 (package! dap-mode)
 (package! lsp-java)
+(package! zeal-at-point)
+;;(package! omnisharp)
