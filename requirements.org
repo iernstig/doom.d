@@ -1,0 +1,9 @@
+#+TITLE: requirements
+
+* Software installation
+zeal
+.NET/mono-microsoft
+
+* LSP
+** CCLS
+** python-language-server
