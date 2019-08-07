@@ -26,8 +26,7 @@
 ;;---------- load other configuration files after initial config ----------;;
 (load! "+bindings")
 (load! "+org")
-(load! "+lang/+py")
-(load! "+lang/+py")
+(load! "+py")
 (load! "+appearance.el")
 
 (provide 'config)
