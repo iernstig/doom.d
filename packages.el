@@ -11,6 +11,4 @@
 <<<<<<< HEAD
 (package! zeal-at-point)
 ;;(package! omnisharp)
-=======
 (package! org-super-agenda)
->>>>>>> 3fca7d4e9c83a233a6398ff9f4193a87dd57ca91
