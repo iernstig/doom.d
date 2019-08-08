@@ -8,7 +8,6 @@
 (package! lsp-treemacs)
 (package! dap-mode)
 (package! lsp-java)
-<<<<<<< HEAD
 (package! zeal-at-point)
 ;;(package! omnisharp)
 (package! org-super-agenda)
