@@ -6,4 +6,4 @@ zeal
 
 * LSP
 ** CCLS
-** python-language-server
+** pip install python-language-server
