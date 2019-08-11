@@ -1,10 +1,11 @@
 ;;; ~/.doom.d/+java.el -*- lexical-binding:
 
 
-(use-package dap-mode
+(def-package! dap-mode
   :ensure t :after lsp-mode
   :config
   (dap-mode t)
   (dap-ui-mode t))
 
-(use-package dap-java :after (lsp-java))
+(def-package! dap-java :after (lsp-java))
+

@@ -1,9 +1,14 @@
 #+TITLE: requirements
 
 * Software installation
+** General
 zeal
-.NET/mono-microsoft
+** csharp
+omnisharp-roslyn from aur
+
 
 * LSP
 ** CCLS
 ** pip install python-language-server
+** M-x omnisharp-install-server
+** LSP-python?
